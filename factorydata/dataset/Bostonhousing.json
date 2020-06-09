@@ -1,0 +1,27 @@
+{
+	"name": "Bostonhousing",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "BostonHousing",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "BostonHousing.xlsx",
+				"folderPath": "Practice",
+				"container": "ny-container"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Average",
+				"type": "String"
+			}
+		]
+	}
+}
