@@ -1,6 +1,5 @@
 # myRepo
 # Creating Pipelines
-CICD with Azure devops
 
 Steps to copy data from local computer to ADLS
 
